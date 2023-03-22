@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     openAI = OpenAI.instance.build(
-        token: "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",
+        token: " Your key",
         baseOption: HttpSetup(receiveTimeout: 16000),
         isLogger: true);
   }
